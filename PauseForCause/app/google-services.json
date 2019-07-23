@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206029954024",
+    "firebase_url": "https://pauseforcause-9fad1.firebaseio.com",
+    "project_id": "pauseforcause-9fad1",
+    "storage_bucket": "pauseforcause-9fad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206029954024:android:a1678a8307d0aa27",
+        "android_client_info": {
+          "package_name": "arpitha.pauseforcause"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206029954024-77tl2asmco62jaeisi42l23vlafc6qmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arpitha.pauseforcause",
+            "certificate_hash": "2bc2df8d29a89cc73f827429a145eca631d21825"
+          }
+        },
+        {
+          "client_id": "206029954024-mqg0720kdg1g7iq9pi7ir1eal466kr5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAndbgkRx1zwwDF94whP63TEvavjgypgio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206029954024-mqg0720kdg1g7iq9pi7ir1eal466kr5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

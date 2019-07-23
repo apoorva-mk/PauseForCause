@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/org"
+    android:layout_width="match_parent"
+    android:background="@drawable/ppl2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Pause For Cause"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/org"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#002Cd9"
+        android:gravity="center"
+        android:onClick="buttonPress1"
+        android:padding="5dp"
+        android:text="ORGANIZATION"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/contributor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#002Cd9"
+        android:gravity="center"
+        android:onClick="buttonPress2"
+        android:padding="5dp"
+        android:text="CONTRIBUTOR"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/issue"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#002Cd9"
+        android:gravity="center"
+        android:onClick="gotourl"
+        android:padding="5dp"
+        android:text="Report Issue"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:visibility="visible" />
+
+</LinearLayout>
